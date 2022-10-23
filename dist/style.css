@@ -20,21 +20,22 @@ body {
     padding: 20px;
     padding-right: 30px;
     padding-left: 30px;
-    background-color: rgba(157, 190, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
-    box-shadow: 10px 10px 10px blueviolet;
+    box-shadow: 10px 10px 10px black;
     width: 200px;
+    color: white;
 }
 
 img {
     border-radius: 20px;
-    box-shadow: 10px 10px 10px blueviolet;
+    box-shadow: 10px 10px 10px black;
 }
 
 button {
     border: 0px;
     border-radius: 10px;
-    box-shadow: 3px 3px 5px blueviolet;
+    box-shadow: 3px 3px 5px ;
     background-color: rgb(244, 232, 255);
     margin: 5px;
     margin-bottom: 20px;
