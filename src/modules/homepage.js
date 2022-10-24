@@ -7,7 +7,7 @@ function createHomePage() {
     content.appendChild(amazing);
 
     let restaurantImage = document.createElement("img");
-    restaurantImage.setAttribute("src", "../dist/media/restaurant.jpg");
+    restaurantImage.setAttribute("src", "media/restaurant.jpg");
     content.appendChild(restaurantImage);
 
     let contactCard = document.createElement("div");
