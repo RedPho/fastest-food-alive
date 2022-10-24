@@ -7,12 +7,12 @@ function createMenuPage() {
         foodCard.classList.add("flex-row");
         content.appendChild(foodCard);
     }
-    addFood("Hamburger", "a delicious hamburger", "10$", "../media/hamburger.jpg");
-    addFood("Hamburger", "another delicious hamburger", "10$", "../media/hamburger.jpg");
-    addFood("Hamburger", "a suspicious hamburger", "10$", "../media/hamburger.jpg");
-    addFood("Hamburger", "a hamburger", "10$", "../media/hamburger.jpg");
-    addFood("Hamburger", "believe me, this is different", "10$", "../media/hamburger.jpg");
-    addFood("Hamburger", "a delicious hamburger", "10$", "../media/hamburger.jpg");
+    addFood("Hamburger", "a delicious hamburger", "10$", "../dist/media/hamburger.jpg");
+    addFood("Hamburger", "another delicious hamburger", "10$", "../dist/media/hamburger.jpg");
+    addFood("Hamburger", "a suspicious hamburger", "10$", "../dist/media/hamburger.jpg");
+    addFood("Hamburger", "a hamburger", "10$", "../dist/media/hamburger.jpg");
+    addFood("Hamburger", "believe me, this is different", "10$", "../dist/media/hamburger.jpg");
+    addFood("Hamburger", "a delicious hamburger", "10$", "../dist/media/hamburger.jpg");
 }
 
 export { createMenuPage };
