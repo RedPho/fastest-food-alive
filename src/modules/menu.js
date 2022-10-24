@@ -2,7 +2,7 @@ function createMenuPage() {
     let content = document.querySelector("#content");
     function addFood(name, description, price, imgSrc) {
         let foodCard = document.createElement("div");
-        foodCard.innerHTML = "<img width=150px height=150px src=" + imgSrc + ">" + "<div>" + "<h3>"+ name +"</h3>" + "<p>" + description + "</p>" + "</div>" + "<p><b>" + price + "</b></p>";
+        foodCard.innerHTML = "<img width=150px height=150px src=" + imgSrc + ">" + "<div>" + "<h3>"+ name +"</h3>" + "<p>" + description + "</p>" + "</div>" + "<p class='align-self-center'><b>" + price + "</b></p>";
         foodCard.classList.add("card");
         foodCard.classList.add("flex-row");
         content.appendChild(foodCard);

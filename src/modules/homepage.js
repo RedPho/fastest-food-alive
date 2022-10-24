@@ -17,7 +17,7 @@ function createHomePage() {
 
     let adressCard = document.createElement("div");
     adressCard.classList.add("card");
-    adressCard.innerHTML = "<h3>You can (or can't?) find us here:</h3><p>Real St. 10/26 New York/United States of America.</p>";
+    adressCard.innerHTML = "<h3>You can (or can't?) find us here:</h3><p>Gerçekadres Cad. Aşırıgerçek Sok. Kesinlikledoğruadres Mah. 10/26 İstanbul/Almanya.</p>";
     content.appendChild(adressCard);
 }
 
